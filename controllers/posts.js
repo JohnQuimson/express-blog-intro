@@ -1,8 +1,10 @@
 const { readJson } = require('../utils');
-const posts = readJson('posts');
+const { writeJson } = require('../utils');
 
 module.exports = {
-  posts: (req, res) => {
+  get: (req, res) => {
+    const posts = readJson('posts');
+
     res.format({
       html: () => {
         let html = '<main>';
@@ -29,5 +31,11 @@ module.exports = {
         });
       },
     });
+  },
+  post: (req, res) => {
+    const posts = readJson('posts');
+
+    writeJson('posts', [...posts, req.body]);
+    res.send('Post effettuato correttamente');
   },
 };
