@@ -2,31 +2,31 @@
   {
     "titolo": "Introduzione alla Programmazione",
     "contenuto": "La programmazione è il processo di creare un insieme di istruzioni che dicono a un computer come eseguire un compito.",
-    "immagine": "https://example.com/immagine1.jpg",
+    "immagine": "introduzione.jpg",
     "tags": ["programmazione", "coding", "sviluppo"]
   },
   {
     "titolo": "Guida ai CSS",
     "contenuto": "CSS è un linguaggio di stile utilizzato per descrivere la presentazione di un documento scritto in HTML o XML.",
-    "immagine": "https://example.com/immagine2.jpg",
+    "immagine": "css.jpg",
     "tags": ["css", "design", "web"]
   },
   {
     "titolo": "Scoprire JavaScript",
     "contenuto": "JavaScript è un linguaggio di programmazione utilizzato principalmente per creare contenuti interattivi su siti web.",
-    "immagine": "https://example.com/immagine3.jpg",
+    "immagine": "javascript.jpg",
     "tags": ["javascript", "web", "interattivo"]
   },
   {
     "titolo": "Nozioni di Base su HTML",
     "contenuto": "HTML è il linguaggio standard per creare pagine web e applicazioni web.",
-    "immagine": "https://example.com/immagine4.jpg",
+    "immagine": "html.jpg",
     "tags": ["html", "markup", "web"]
   },
   {
     "titolo": "Introduzione a Python",
     "contenuto": "Python è un linguaggio di programmazione interpretato ad alto livello con una sintassi semplice e facile da imparare.",
-    "immagine": "https://example.com/immagine5.jpg",
+    "immagine": "python.jpg",
     "tags": ["python", "programmazione", "sviluppo"]
   }
 ]
